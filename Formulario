@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title> Formulario de registro</title>
+    	<link rel="stylesheet" type="text/css" href="estilo.css">
+    <style> 
+       h1{color: black;}
+       li{color: blue;}
+       h2{color: #7F0907;}
+       h4{color: grey;}
+       h3{color: black;}
+       p{color: #2f0E07;}
+    </style>
+    </head>
+    <body>
+    	
+    	<center>
+    		<hr>
+    		<hr>
+    	<h1> Registro </h1>
+    </center>
+    <hr>
+    <hr>
+    	<header>
+	<center>
+	<img src="img/mevacuno.png" style="width: 150px">
+</center>
+<center>
+	<h1> Registro para recibir la vacuna</h1>
+	<h2>Registro solo para los alumnos de la UTEC</h2>
+</center>
+    	<div class="form">
+    		<form action="php7.php" method="POST">
+    			<p>Matricula</p>
+    			<label for="nombre">Ingrese su matricula</label>
+    			<input type="matricula" name="matricula" placeholder="1720110678" requeried>
+    			<p>Correo</p>
+    			<label for="nombre">Ingrese su direccion de correo</label>
+    			<input type="correo" name="correo" placeholder="persona@algo.com" requeried>
+    			<p>Nombre</p>
+    			<label for="nombre">Ingrese su nombre</label>
+    			<input type="nombre" name="nombre" placeholder="Nombre completo" requeried>
+    			<p>Grupo</p>
+    			<label for="grupo">Ingrese su grupo</label>
+    			<input type="grupo" name="grupo" placeholder="Grado y grupo" requeried>
+    			<br>
+    			<br>
+    			<input type="submit" value="Enviar">
+    		</form>
+
+    	</div>
+
+
+<hr>
+<center>
+<footer>
+	<hr>
+	<h4>(c)2021 Miguel Andrey Garcia Ortega/G-31_ing.tic's</h4>
+	<hr>
+	<hr>
+</footer>
+</center>
+    </body>
