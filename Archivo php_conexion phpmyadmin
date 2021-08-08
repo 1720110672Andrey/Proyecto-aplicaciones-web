@@ -1,0 +1,18 @@
+<?php
+//abro la conexion
+$con = mysqli_connect("localhost","root","123","registro") or die ('Error en la conexxion de servidor');
+
+//Le pido algo a la base de datos
+$sql="INSERT INTO usuarios
+VALUES (
+    '".$_POST["matricula"]."',
+    '".$_POST["correo"]."',
+    '".$_POST["nombre"]."',
+    '".$_POST["grupo"]."')";
+
+
+$resultado=mysqli_query($con,$sql) or die('Error en el query database');
+mysqli_close($con);
+echo "El registro se ha metido en la base de datos"
+
+?>
