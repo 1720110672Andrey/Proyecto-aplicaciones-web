@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <title>Vacunación</title>
+<link rel="shorcut icon"  href="logoico.ico">
+<link type="text/css" href="estilo.css" rel="stylesheet">
+<style type="text/css"></style>
+    
+    <style> 
+       h1{color: white;}
+       li{color: blue;}
+       h2{color: #7F0907;}
+       h4{color: whit;}
+       body{color: #F3EAE8;}
+       h3{color: black;}
+       p{color: #2f0E07;}
+    </style>
+</head>
+<body>
+    <h1> vacunación </h1>
+    <hr>
+    <p> 
+        Sitio oficial de vacunacion por parte de los alumnos de la UTEC
+    </p>
+</body>
+<header>
+	<hr>
+	<center>
+	<img src="imagenes/vacunas.gif" style="width: 300px"; "id="imagenlogo">
+</center>
+	<h1>Cartilla de vacunacion virtual</h1>
+	<h2>Respaldado por la Secretaria de Salud</h2>
+	<hr>
+	<nav>
+		<li><a href="biografia.html"> inicio</a></li>
+		<li><a href="http://localhost/formulario/"> Registro</a></li>
+	</nav>
+	<div class="clearfix"></div>
+</header>
+<hr>
+<main>
+	
+	<section id="last">
+		<article class="blogarticule">
+		<br>
+		<h2>Comunicado de parte de La secretaria de salud y sep</h2>
+        <h3>La cuarentena a echo que los alumnos tengan que tomar sus estudios por medio de internet, y algunos no tienen los recursos necesarios para tomar sus clases en linea, y asi haciendo que se atrasen academicamente, por eso la secretaria de salud ah optado por mandar vacunas a alumnos y profesores de esta institucion para poder retomar las clases presenciales lo mas rapido posible. en la misma pagina esta un apartado donde se pueden registrar para poder tomar sus datos y proceder a vacunarlos, al igual que un cuestionario para saber su estado de salud y asi saber si estan propensos a efectos secundarios, y tambien se colocara un apartado donde estara una pequeña informacion sobre la vacuna. </h3>
+		</article>
+	</section>
+	<hr>
+	<section id="last2">
+		<article class="blogarticule">
+		<br>
+		<h2>Cuales son los benefcios de darse una vacuna contra la COVID-19?</h2>
+        <h3> <p>*prevenir que te contagies con la COVID-19 o que te enfermes de gravedad, o que mueras debido a la COVID-19.</p>
+<p>*prevenir que trasmitas el virus que causa la COVID-19 a otros.</p>
+
+<p>*aumentar el número de personas en la comunidad que están protegidas de contagiarse con la COVID-19 — lo que hace que sea más difícil que la enfermedad se propague, y a la vez contribuye a la inmunidad colectiva.</p>
+
+<p>*prevenir que el virus que causa la COVID-19 se propague y se replique, lo que le permite mutar y posiblemente volverse más resistente a las vacunas</p>
+
+</h3>
+		</article>
+	</section>
+<hr>
+	<section id="last3">
+		<article class="blogarticule">
+		<br>
+		<h2>Las vacunas contra la COVID-19 Protegen frente a las distintas variantes de la COVID-19?</h2>
+        <h3>Las vacunas contra la COVID-19 se desarrollaron sobre la base de la proteína S, antes de que tuviera las mutaciones identificadas en estas variantes. Aunque la investigación da a entender que las vacunas contra la COVID-19 tienen una menor eficacia contra las variantes, al parecer continúan ofreciendo protección contra las formas graves de COVID-19. Es necesario realizar más investigaciones.
+        Además, los fabricantes de la vacuna también están creando vacunas de refuerzo para mejorar la protección frente a las distintas variantes </h3>
+		</article>
+	</section>
+<hr>
+	<section id="last4">
+		<article class="blogarticule">
+		<br>
+		<h2>La vacuna contra la COVID-19, Puede contagiarte con la COVID-19?</h2>
+        <h3>No. Las vacunas contra la COVID-19 que se están elaborando en los Estados Unidos no usan el virus activo que causa la COVID-19.
+        Ten en cuenta que va a llevar unas semanas para que tu cuerpo desarrolle inmunidad después de vacunarte contra la COVID-19. Como resultado, es posible que puedas infectarte con el virus que causa la COVID-19 justo antes o después de haberte vacunado.</h3>
+		</article>
+	</section>
+<hr>
+</main>
+<hr>
+<footer>
+	
+	<h4>(c)2021 Miguel Andrey Garcia Ortega/G-31_ing.tic's</h4>
+</footer>
+</html>
